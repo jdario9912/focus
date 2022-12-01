@@ -4,12 +4,16 @@
 
 :root{
   font-family: 'Roboto', sans-serif;
+  color: var(--color-secundario);
 
   --color-principal: #2A2357;
   --color-secundario: #fff;
   --color-acento: #6C5DD2;
+  --color-acento-op-80: rgba(108, 93, 210, 0.80);
+  --color-acento-op-60: rgba(108, 93, 210, 0.60);
 }
 
+/* LOGO + ICONO */
 .logo{
   @apply flex items-center text-[2.8rem] text-6xl font-black;
 }
@@ -26,4 +30,30 @@
   to{
     transform: rotate(360deg);
   }
+}
+
+/* BACK ARROW */
+.back-arrow-container{
+  @apply
+    w-screen
+    absolute
+    top-0
+    px-5
+    py-4
+  ;
+}
+
+.back-arrow{
+  @apply
+    text-white
+    text-2xl
+
+  ;
+}
+
+.back-arrow:active{
+  @apply
+    text-[var(--color-acento)]
+    scale-125
+  ;
 }

@@ -1,0 +1,57 @@
+.login-signup-page{
+  @apply
+    bg-[url(../img/bg-login-singup.jpg)]
+    bg-no-repeat
+    bg-cover
+    bg-center
+    min-h-screen
+    w-full
+    p-4
+    flex
+    flex-col
+    items-center
+  ;
+}
+
+.logo-container-login-singup{
+  @apply 
+    mt-[10vh]
+  ;
+}
+
+.log-sing-text{
+  @apply 
+    text-center 
+    mt-2
+  ;
+}
+
+.btn-login-singup-container{
+  @apply
+    flex
+    gap-1
+    justify-evenly
+    w-screen
+    mt-[calc(50vh)]
+  ;
+}
+
+.btn-log-sing{
+  @apply
+    bg-[var(--color-acento-op-80)]
+    py-2
+    rounded-3xl
+    text-center
+    w-[145px]
+    shadow-md
+    md:w-56
+  ;
+}
+
+.btn-log-sing:active{
+  @apply
+    bg-white
+    text-[var(--color-acento)]
+    scale-105
+  ;
+}
