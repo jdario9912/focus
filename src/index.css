@@ -4,9 +4,26 @@
 
 :root{
   font-family: 'Roboto', sans-serif;
-  @font-face {
-    font-family: 'Object-sans';
-    src: url('./font/objectsans-heavy.ttf')
-      format('truetype');
-  };
+
+  --color-principal: #2A2357;
+  --color-secundario: #fff;
+  --color-acento: #6C5DD2;
+}
+
+.logo{
+  @apply flex items-center text-[2.8rem] text-6xl font-black;
+}
+
+.icono{
+  @apply text-violet-600;
+  animation: rotar-icono infinite 15s linear;
+}
+
+@keyframes rotar-icono {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
 }

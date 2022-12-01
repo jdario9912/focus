@@ -1,0 +1,41 @@
+.desktop-version-view{
+  @apply 
+    bg-[url(../img/3a39892643539f17ed2e9eed27514931.jpg)]
+    flex
+    flex-col 
+    gap-32
+    h-screen 
+    items-center 
+    justify-center 
+    text-white 
+    w-screen 
+  ;  
+}
+
+.logo-container-desktop{
+  @apply 
+    relative
+  ;
+}
+
+.desktop-version-view p{
+  @apply
+    text-2xl
+    italic
+  ;
+}
+
+.desktop-version-view p::first-letter{
+  @apply 
+    text-4xl
+  ;
+}
+
+.desktop-version-view i{
+  background: linear-gradient(#fff, #6c5dd2, #2a2375 );
+  @apply 
+    text-transparent 
+    bg-clip-text 
+    not-italic
+  ;
+}
