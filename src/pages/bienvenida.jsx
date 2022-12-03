@@ -5,6 +5,7 @@ import Logo from '../componentes/logo';
 import '../css/bienvenida-page.css'
 
 const Bienvenida = () => {
+
   return (
     <div className='bienvenida-page'>
       <div className='logo-container-bienvenida'><Logo /></div>
@@ -12,6 +13,7 @@ const Bienvenida = () => {
       <div className='btn-bienvenida-container'>
         <BtnBienvenida texto='Fotógrafo' href={'/fotografo'} />
         <BtnBienvenida texto='Espectador' href={'/espectador'} />
+        {/* <button handleDisplay={ocultarPagina}>Ocultar pagina</button> */}
       </div>
     </div>
   );

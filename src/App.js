@@ -5,7 +5,10 @@ import LoginSingup from './pages/login-singup';
 function App() {
   return (
     <div className="App">
-      <Bienvenida />
+      <div className='w-sreen flex overflow-visible'>
+        <Bienvenida />
+        <LoginSingup />
+      </div>
     </div>
   );
 }

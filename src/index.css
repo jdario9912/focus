@@ -13,24 +13,30 @@
   --color-acento-op-60: rgba(108, 93, 210, 0.60);
 }
 
+@font-face {
+  font-family: 'Object Sans';
+  src: url("./fonts/OBJECTSANS-HEAVY.OTF");
+}
+
 /* LOGO + ICONO */
 .logo{
-  @apply flex items-center text-[2.8rem] text-6xl font-black;
+  @apply flex text-5xl;
+  font-family: 'Object Sans';
 }
 
 .icono{
-  @apply text-violet-600;
+  @apply text-violet-600 relative -top-1;
   animation: rotar-icono infinite 15s linear;
 }
 
-@keyframes rotar-icono {
+/* @keyframes rotar-icono {
   from{
     transform: rotate(0deg);
   }
   to{
     transform: rotate(360deg);
   }
-}
+} */
 
 /* BACK ARROW */
 .back-arrow-container{

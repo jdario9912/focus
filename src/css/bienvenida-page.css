@@ -1,15 +1,31 @@
 .bienvenida-page{
   @apply 
+    absolute
+    bg-[url(../img/bg-bienvenida.jpg)]
+    bg-no-repeat
+    bg-center
+    bg-cover
     flex 
     flex-col 
     items-center 
     text-white 
     text-center 
-    w-full 
+    w-screen
     min-h-screen 
     p-4
+    left-0
+    h-screen
   ;
-  background: url(../img/bg-bienvenida.jpg) no-repeat center / cover;
+  animation: ocultarDisplay 2seg linear;
+}
+
+@keyframes ocultarDisplay{
+  from{
+    opacity: 1;
+  }
+  to{
+    opacity: 0;
+  }
 }
 
 .logo-container-bienvenida{
