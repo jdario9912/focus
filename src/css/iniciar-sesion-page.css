@@ -1,0 +1,16 @@
+.iniciar-sesion-page{
+  @apply
+    bg-[url(../img/bg-iniciar-sesion.jpg)]
+    bg-no-repeat
+    bg-center
+    bg-cover
+    w-screen
+    h-screen
+  ;
+}
+
+.btn-iniciar-sesion{
+  @apply
+    z-10
+  ;
+}

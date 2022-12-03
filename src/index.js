@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import DesktopVersion from './pages/desktop-version';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LoginSingup from './pages/login-singup';
-import Bienvenida from './pages/bienvenida';
+import IniciarSesion from './pages/iniciar-sesion';
 
 const movile = window.innerWidth < 992;
 
@@ -17,9 +17,9 @@ root.render(
       movile ? 
         <Routes>
           <Route path='/' element={ <App /> } />
-          <Route path='/bienvenida' element={ <Bienvenida /> } />
           <Route path='/fotografo' element={ <LoginSingup /> } />
           <Route path='/espectador' element={ <LoginSingup /> } />
+          <Route path='/social-login' element={ <IniciarSesion /> } />
         </Routes> :
         <DesktopVersion />
     }

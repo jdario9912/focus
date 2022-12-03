@@ -13,7 +13,6 @@ const Bienvenida = () => {
       <div className='btn-bienvenida-container'>
         <BtnBienvenida texto='Fotógrafo' href={'/fotografo'} />
         <BtnBienvenida texto='Espectador' href={'/espectador'} />
-        {/* <button handleDisplay={ocultarPagina}>Ocultar pagina</button> */}
       </div>
     </div>
   );

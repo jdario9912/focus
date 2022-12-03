@@ -1,14 +1,11 @@
 import './css/App.css';
+// import IniciarSesion from './pages/iniciar-sesion';
 import Bienvenida from './pages/bienvenida';
-import LoginSingup from './pages/login-singup';
 
 function App() {
   return (
     <div className="App">
-      <div className='w-sreen flex overflow-visible'>
         <Bienvenida />
-        <LoginSingup />
-      </div>
     </div>
   );
 }

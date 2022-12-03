@@ -8,13 +8,13 @@ import '../css/login-singup-page.css';
 const LoginSingup = () => {
   return (
     <div className='login-signup-page'>
-      <BackArrow href={'/bienvenida'}/>
+      <BackArrow href={'/'}/>
       <div className='logo-container-login-singup'>
         <Logo />
       </div>
       <LogSingText />
       <div className='btn-login-singup-container'>
-        <LogSingBtn texto='Iniciar sesión' href='#' />
+        <LogSingBtn texto='Iniciar sesión' href='social-login' />
         <LogSingBtn texto='Registrarte' href='#' />
       </div>
     </div>

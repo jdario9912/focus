@@ -25,7 +25,7 @@
 }
 
 .icono{
-  @apply text-violet-600 relative -top-1;
+  @apply text-violet-600 relative -top-[.3rem];
   animation: rotar-icono infinite 15s linear;
 }
 
