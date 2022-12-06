@@ -1,0 +1,33 @@
+.destacados{
+  @apply
+    h-[22vh]
+    w-screen
+  ;
+}
+
+.destacado{
+  @apply
+    bg-[url('../img/temporales/destacados/0cbc384eb857a73dae0449dc91797c5b.jpg')]
+    bg-top
+    bg-no-repeat
+    bg-cover
+    w-full
+    h-full
+  ;
+}
+
+.cards{
+  @apply
+    h-[66vh]
+    w-screen
+    border
+    border-black
+  ;
+}
+
+.button-navigation{
+  @apply
+    h-[12vh]
+    w-screen
+  ;
+}

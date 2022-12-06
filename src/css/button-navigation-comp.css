@@ -1,0 +1,23 @@
+.button-navigation{
+  @apply
+    flex
+    justify-evenly
+    items-end
+  ;
+}
+
+.btns{
+  @apply
+    text-3xl
+    text-[var(--color-acento)]
+  ;
+}
+
+.add{
+  @apply
+    border
+    bg-[var(--color-acento)]
+    rounded-full
+    p-7
+  ;
+}

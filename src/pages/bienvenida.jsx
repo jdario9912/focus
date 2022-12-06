@@ -12,7 +12,7 @@ const Bienvenida = () => {
       <BienvenidaText />
       <div className='btn-bienvenida-container'>
         <BtnBienvenida texto='Fotógrafo' href={'/fotografo'} />
-        <BtnBienvenida texto='Espectador' href={'/espectador'} />
+        <BtnBienvenida texto='Espectador' href={'/home'} />
       </div>
     </div>
   );

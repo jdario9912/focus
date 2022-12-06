@@ -6,11 +6,9 @@
     bg-cover
     w-screen
     h-screen
-  ;
-}
-
-.btn-iniciar-sesion{
-  @apply
-    z-10
+    flex
+    flex-col
+    justify-center
+    items-center
   ;
 }

@@ -1,14 +1,10 @@
 import React from 'react';
-import SocialLogin from "react-social-login";
 
-const BtnGoogle = ({ children, triggerLogin, ...props }) => {
+const BtnGoogle = () => {
   return (
-    <>
-      <button onClick={ triggerLogin } { ...props } className='z-10'>
-        { children }
-      </button>
-    </>
+    <div className='btn-iniciar-sesion'>
+    </div>
   );
 }
 
-export default SocialLogin(BtnGoogle);
+export default BtnGoogle;

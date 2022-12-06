@@ -14,8 +14,8 @@ const LoginSingup = () => {
       </div>
       <LogSingText />
       <div className='btn-login-singup-container'>
-        <LogSingBtn texto='Iniciar sesión' href='social-login' />
-        <LogSingBtn texto='Registrarte' href='#' />
+        <LogSingBtn texto='Iniciar sesión' href='auth' />
+        <LogSingBtn texto='Registrarte' href='iniciar-sesion' />
       </div>
     </div>
   );
