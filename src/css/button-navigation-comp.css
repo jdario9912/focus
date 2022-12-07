@@ -1,23 +1,62 @@
 .button-navigation{
   @apply
     flex
-    justify-evenly
+    justify-between
     items-end
+    ;
+  }
+  
+.box-par-btn{
+  @apply
+    bg-[var(--color-principal)]
+    flex
+    justify-around
+    p-2
+    w-[40vw]
+  ;
+}
+
+.box-par-btn-l{
+  @apply
+    rounded-tr-3xl
+  ;
+}
+
+.box-par-btn-r{
+  @apply
+    rounded-tl-3xl
+
   ;
 }
 
 .btns{
   @apply
     text-3xl
-    text-[var(--color-acento)]
   ;
 }
 
-.add{
+.mas-under-mas{
   @apply
+    h-full
     border
-    bg-[var(--color-acento)]
+    border-black
+  ;
+}
+
+.mas{
+  @apply
     rounded-full
-    p-7
+    p-5
+    bg-[var(--color-principal)]
+    border-8
+    border-white
+  ;
+}
+
+.under-mas{
+  @apply
+    h-4
+    bg-[var(--color-principal)]
+    w-full
   ;
 }

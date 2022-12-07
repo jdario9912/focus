@@ -3,9 +3,9 @@ import { IoAdd } from "react-icons/io5";
 
 const BtnAgregar = () => {
   return (
-    <>
-      <IoAdd className='btns add' />
-    </>
+    <div className='mas'>
+      <IoAdd className='btns' />
+    </div>
   );
 }
 
