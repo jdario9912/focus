@@ -11,21 +11,21 @@
     bg-[var(--color-principal)]
     flex
     justify-around
-    p-2
-    w-[40vw]
+    items-center
+    h-[65%]
+    w-[45vw]
   ;
 }
 
 .box-par-btn-l{
   @apply
-    rounded-tr-3xl
+    rounded-tr-[1.9rem]
   ;
 }
 
 .box-par-btn-r{
   @apply
-    rounded-tl-3xl
-
+    rounded-tl-[1.9rem]
   ;
 }
 
@@ -38,25 +38,50 @@
 .mas-under-mas{
   @apply
     h-full
-    border
-    border-black
+    relative
+    flex
+    flex-col
+    items-center
   ;
 }
 
 .mas{
   @apply
     rounded-full
-    p-5
+    w-[18vw]
+    h-[18vw]
     bg-[var(--color-principal)]
-    border-8
-    border-white
+    outline
+    outline-[2vw]
+    relative
+    z-20
+    flex
+    justify-center
+    items-center
   ;
 }
 
 .under-mas{
   @apply
-    h-4
     bg-[var(--color-principal)]
+    /* bg-yellow-800 */
+    h-[53%]
+    w-[25vw]
+    absolute
+    bottom-0
+    mx-auto
+    -z-10
+  ;
+}
+
+.box-under-mas{
+  border-bottom-left-radius: 70% 100%;
+  border-bottom-right-radius: 70% 100%;
+  @apply
+    bg-white
+    relative
     w-full
+    h-[20%]
+    /* rounded-b-full */
   ;
 }

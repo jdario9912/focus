@@ -12,30 +12,7 @@
   ;  
 }
 
-.logo-container-desktop{
-  @apply 
-    relative
-  ;
-}
-
-.desktop-version-view p{
-  @apply
-    text-2xl
-    italic
-  ;
-}
-
-.desktop-version-view p::first-letter{
-  @apply 
-    text-4xl
-  ;
-}
-
-.desktop-version-view i{
-  background: linear-gradient(#fff, #6c5dd2, #2a2375 );
-  @apply 
-    text-transparent 
-    bg-clip-text 
-    not-italic
-  ;
+.desktop-version-text{
+  font-family: 'Object Sans';
+  font-size: x-large;
 }

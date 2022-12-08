@@ -5,8 +5,8 @@ import '../css/desktop-version.css';
 const DesktopVersion = () => {
   return (
     <div className='desktop-version-view'>
-      <div className='logo-container-desktop'><Logo /></div>
-      <p>Disponible solo para <i>smatphones</i>.</p>
+      <Logo />
+      <p className='desktop-version-text'>Disponible solo para smartphones.</p>
     </div>
   );
 }

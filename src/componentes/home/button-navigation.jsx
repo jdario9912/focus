@@ -15,7 +15,9 @@ const ButtonNavigation = () => {
       </div>
       <div className='mas-under-mas'>
         <BtnAgregar />
-        <div className='under-mas'></div>
+        <div className='under-mas'>
+          <div className='box-under-mas'></div>
+        </div>
       </div>
       <div className='box-par-btn box-par-btn-r'>
         <BtnNotificaciones />

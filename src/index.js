@@ -31,7 +31,7 @@ SuperTokens.init({
  ],
 });
 
-const movile = window.innerWidth < 992;
+const movile = window.innerWidth < 767;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
