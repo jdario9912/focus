@@ -1,87 +1,47 @@
 .button-navigation{
   @apply
+    bg-inherit
     flex
-    justify-between
     items-end
-    ;
-  }
-  
-.box-par-btn{
+  ;
+}
+
+.container-buttons{
   @apply
     bg-[var(--color-principal)]
     flex
-    justify-around
+    h-3/4
     items-center
-    h-[65%]
-    w-[45vw]
+    justify-evenly
+    w-full
   ;
 }
 
-.box-par-btn-l{
+.container-mas{
   @apply
-    rounded-tr-[1.9rem]
+  bg-white
+    p-3
+    rounded-full
+    -translate-y-6
   ;
 }
 
-.box-par-btn-r{
+.mas{
   @apply
-    rounded-tl-[1.9rem]
+    bg-[var(--color-principal)]
+    flex
+    h-[18vw]
+    items-center
+    justify-center
+    rounded-full
+    shadow-lg
+    shadow-neutral-600/50
+    w-[18vw]
   ;
 }
 
 .btns{
   @apply
     text-3xl
-  ;
-}
-
-.mas-under-mas{
-  @apply
-    h-full
-    relative
-    flex
-    flex-col
-    items-center
-  ;
-}
-
-.mas{
-  @apply
-    rounded-full
-    w-[18vw]
-    h-[18vw]
-    bg-[var(--color-principal)]
-    outline
-    outline-[2vw]
-    relative
-    z-20
-    flex
-    justify-center
-    items-center
-  ;
-}
-
-.under-mas{
-  @apply
-    bg-[var(--color-principal)]
-    /* bg-yellow-800 */
-    h-[53%]
-    w-[25vw]
-    absolute
-    bottom-0
-    mx-auto
-    -z-10
-  ;
-}
-
-.box-under-mas{
-  border-bottom-left-radius: 70% 100%;
-  border-bottom-right-radius: 70% 100%;
-  @apply
-    bg-white
-    relative
-    w-full
-    h-[20%]
-    /* rounded-b-full */
   ;
 }
