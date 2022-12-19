@@ -1,0 +1,15 @@
+{
+  "usuarios":[
+    "user-name": "mar-martinez@gmail.com",
+    "info-personal":{
+      "nombre": "Marcelo Martínez",
+        "edad": 32,
+        "genero": "masculino",
+        "ubicacion": {
+          "ciudad": "Sunchales",
+          "provincia": "Santa Fe",
+          "pais": "Argentina"
+        }
+      }
+  ]
+}
