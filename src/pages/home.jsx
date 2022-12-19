@@ -8,6 +8,7 @@ const Home = () => {
   return (
     <div>
       <Destacados />
+      <div className="separador"></div>
       <Feed />
       <ButtonNavigation />
     </div>

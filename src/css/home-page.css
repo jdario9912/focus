@@ -16,9 +16,16 @@
   ;
 }
 
+.separador{
+  @apply
+    w-full
+    h-[1vh]
+  ;
+}
+
 .feed{
   @apply
-    h-[66vh]
+    h-[65vh]
     w-screen
     border
     overflow-scroll

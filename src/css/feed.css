@@ -47,9 +47,3 @@
     overflow-hidden
   ;
 }
-
-.contenido-img{
-  @apply
-    rounded-xl
-  ;
-}

@@ -9,7 +9,7 @@ import LoginSingup from './pages/login-singup';
 import IniciarSesion from './pages/iniciar-sesion';
 import Home from './pages/home';
 
-const movile = window.innerWidth < 767;
+const movile = window.innerWidth < 480;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
