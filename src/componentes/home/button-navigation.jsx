@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css/button-navigation-comp.css'
+import '../../css/button-navigation.css'
 import BtnAgregar from './button-navigation/btn-agregar';
 import BtnHome from './button-navigation/btn-home';
 import BtnLupa from './button-navigation/btn-lupa';

@@ -1,0 +1,55 @@
+.feed-publicacion{
+  @apply
+    mb-6
+  ;
+}
+
+.encabezado-container{
+  @apply
+    flex
+    gap-2
+    mb-3
+  ;
+}
+
+.encabezado-avatar{
+  @apply
+    rounded-full
+    w-1/6
+  ;
+}
+
+.encabezado-textos{
+  @apply
+    flex
+    flex-col
+    justify-end
+  ;
+}
+
+.encabezado-nombre{
+  @apply
+    capitalize
+  ;
+}
+
+.encabezado-profesion{
+  @apply
+    text-right
+    text-xs
+    align-bottom
+  ;
+}
+
+.publicacion-contenido{
+  @apply
+    rounded-xl
+    overflow-hidden
+  ;
+}
+
+.contenido-img{
+  @apply
+    rounded-xl
+  ;
+}

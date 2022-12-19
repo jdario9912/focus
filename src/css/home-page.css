@@ -21,7 +21,10 @@
     h-[66vh]
     w-screen
     border
-    /* border-black */
+    overflow-scroll
+    text-black
+    px-3
+    pt-8
   ;
 }
 
@@ -29,5 +32,6 @@
   @apply
     h-[12vh]
     w-screen
+    -z-50
   ;
 }

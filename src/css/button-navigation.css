@@ -10,7 +10,7 @@
   @apply
     bg-[var(--color-principal)]
     flex
-    h-3/4
+    h-4/5
     items-center
     justify-evenly
     w-full
@@ -20,9 +20,9 @@
 .container-mas{
   @apply
   bg-white
-    p-3
+    p-2
     rounded-full
-    -translate-y-6
+    -translate-y-8
   ;
 }
 

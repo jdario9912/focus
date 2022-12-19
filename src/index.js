@@ -8,28 +8,6 @@ import DesktopVersion from './pages/desktop-version';
 import LoginSingup from './pages/login-singup';
 import IniciarSesion from './pages/iniciar-sesion';
 import Home from './pages/home';
-import { CONST } from './const/const';
-import SuperTokens, { getSuperTokensRoutesForReactRouterDom } from 'supertokens-auth-react';
-import ThirdPartyEmailPassword, { Google } from "supertokens-auth-react/recipe/thirdpartyemailpassword";
-import Session from "supertokens-auth-react/recipe/session";
-
-SuperTokens.init({
- appInfo: {
-   appName: "FOCUS",
-   apiDomain: CONST.urlApi,
-   websiteDomain: CONST.urlWeb,
- },
- recipeList: [
-   ThirdPartyEmailPassword.init({
-     signInAndUpFeature: {
-       providers: [
-         Google.init(),
-       ],
-     },
-   }),
-   Session.init(),
- ],
-});
 
 const movile = window.innerWidth < 767;
 
@@ -40,12 +18,12 @@ root.render(
       movile ? 
         <Routes>
           <Route path='/' element={ <App /> } />
-          {getSuperTokensRoutesForReactRouterDom(require("react-router-dom"))}
           <Route path='/fotografo' element={ <LoginSingup /> } />
           <Route path='/espectador' element={ <LoginSingup /> } />
           <Route path='/iniciar-sesion' element={ <IniciarSesion /> } />
           <Route path='/home' element={ <Home /> } />
-        </Routes> :
+        </Routes> 
+      :
         <DesktopVersion />
     }
   </BrowserRouter>
