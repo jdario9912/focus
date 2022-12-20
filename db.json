@@ -5,6 +5,7 @@
       "user-name": "mar-martinez@gmail.com",
       "password": "123456",
       "registrado": true,
+      "profesion": "PH profesional",
       "info-personal":{
         "nombre": "Marcelo Martínez",
         "edad": 32,
