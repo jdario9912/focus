@@ -1,10 +1,14 @@
-import React from 'react';
-import cont1 from '../../../../img/temporales/feed/contenido/cont1.jpg';
+import React, { useContext } from 'react';
+import { FeedContext } from '../../feed';
 
 const Contenido = () => {
+  const { foto, comentarios } = useContext(FeedContext);
   return (
     <div className='publicacion-contenido'>
-      <img src={ cont1 } alt="" />
+      <img src={ foto } alt="" />
+      {
+        comentarios.map(comentario => <p>{ comentario.texto }</p>)
+      }
     </div>
   );
 }
