@@ -8,6 +8,7 @@ import DesktopVersion from './pages/desktop-version';
 import LoginSingup from './pages/login-singup';
 import IniciarSesion from './pages/iniciar-sesion';
 import Home from './pages/home';
+import Profile from './pages/profile';
 
 const movile = window.innerWidth < 480;
 
@@ -22,6 +23,7 @@ root.render(
           <Route path='/espectador' element={ <LoginSingup /> } />
           <Route path='/iniciar-sesion' element={ <IniciarSesion /> } />
           <Route path='/home' element={ <Home /> } />
+          <Route path='/profile' element={ <Profile /> } />
         </Routes> 
       :
         <DesktopVersion />

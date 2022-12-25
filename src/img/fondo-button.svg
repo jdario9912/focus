@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200">
+  <linearGradient id="gradient">
+    <stop stop-color="#632092" offset="0%"></stop>
+    <stop stop-color="#13d2bf" offset="100%"></stop>
+  </linearGradient>
+  <path 
+    fill="url(#gradient)" 
+    d="
+      M 0 0 
+      V 200
+      H 1000
+      V -200
+      T 550 0
+      Q 100 50 200 30
+    "
+  >
+  </path>
+</svg>
+    <!-- d="
+            M 0 50 
+            Q 250 100 500 50 
+            T 1000 50 
+            L 1000 0 
+            L 0 0 
+            Z
+          " -->

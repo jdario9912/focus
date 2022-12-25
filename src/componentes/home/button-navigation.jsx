@@ -4,7 +4,7 @@ import BtnAgregar from './button-navigation/btn-agregar';
 import BtnHome from './button-navigation/btn-home';
 import BtnLupa from './button-navigation/btn-lupa';
 import BtnNotificaciones from './button-navigation/btn-notificaciones';
-import BtnPerfil from './button-navigation/btn-perfil';
+import BtnProfile from './button-navigation/btn-profile';
 
 const ButtonNavigation = () => {
   return (
@@ -16,7 +16,7 @@ const ButtonNavigation = () => {
           <BtnAgregar />
         </div>
         <BtnNotificaciones />
-        <BtnPerfil />
+        <BtnProfile />
       </div>
     </div>
   );

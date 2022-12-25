@@ -22,7 +22,7 @@ const Feed = () => {
         setAvatar(data[0].avatar);
         setFoto(data[0].publicaciones[0].src);
         setComentarios(data[0].publicaciones[0].comentarios)
-        console.log(data[0].publicaciones[0].comentarios);
+        // console.log(data[0].publicaciones[0].comentarios);
       })
       .catch(e => console.log(e))
     ;
