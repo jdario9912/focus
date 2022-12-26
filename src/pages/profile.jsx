@@ -5,24 +5,26 @@ import imgPerfil from '../img/temporales/feed/avatars/ph2.JPG';
 import { IoPersonOutline, IoImagesSharp } from "react-icons/io5";
 import { MdOutlineCamera } from "react-icons/md";
 import { BiStar } from "react-icons/bi";
+import imgBackground from '../img/temporales/feed/contenido/cont1.jpg';
 
 const styleBtn = 'flex items-center gap-2',
-      styleText = 'border-b w-full text-left first-letter:capitalize font-semibold pb-2';
+      styleText = 'border-b border-white/[.5] w-full text-left first-letter:capitalize pb-2';
 
 
 const Profile = () => {
   return (
-    <div className='bg-purple-700 h-screen w-screen p-4'>
+    <div className='bg-[#2A2357]/[.90] h-screen w-screen'>
+      <img src={ imgBackground } alt="background" className='absolute h-screen w-auto -z-10' />
       <BackArrow href={'/home'}/>
-      <div className="flex flex-col items-center pt-12">
-        <img src={ imgPerfil } alt="" className='w-1/4 rounded-full'/>
+      <div className="flex flex-col items-center">
+        <img src={ imgPerfil } alt="" className='w-1/4 rounded-full mt-[15vh]'/>
         <p className='capitalize'>marcelo martínez</p>
         <div className="flex">
           <AiFillEnvironment />
           <p className='font-light text-sm capitalize'>argentina</p>
         </div>
       </div>
-      <div className="mt-8 flex flex-col gap-4">
+      <div className="mt-[10vh] flex flex-col gap-5 p-4">
         <button className={ styleBtn }>
           <IoPersonOutline className='text-2xl' />
           <p className={ styleText }>datos personales</p>
