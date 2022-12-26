@@ -1,10 +1,10 @@
 import React from 'react';
 import { AiFillEnvironment } from "react-icons/ai";
-import BackArrow from '../componentes/back-arrow';
-import imgPerfil from '../img/temporales/feed/avatars/ph2.JPG';
 import { IoPersonOutline, IoImagesSharp } from "react-icons/io5";
 import { MdOutlineCamera } from "react-icons/md";
 import { BiStar } from "react-icons/bi";
+import BackArrow from '../componentes/back-arrow';
+import imgPerfil from '../img/temporales/feed/avatars/ph2.JPG';
 import imgBackground from '../img/temporales/feed/contenido/cont1.jpg';
 
 const styleBtn = 'flex items-center gap-2',
